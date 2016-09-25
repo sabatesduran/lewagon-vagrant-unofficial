@@ -17,16 +17,16 @@ Vagrant virtual machine using Virtualbox for Le Wagon alumni.
 - Git
 - rbenv
 - Ruby 2.3.1
+- Gems
+	- bundler
+	- rspec
+	- rubocop
+	- pry
+	- pry-byebug
+	- hub
+	- colored
 - Postgresql
 - Node.js
 	- npm
 		- gulp
 - Oh my zsh!
-- Gems
-	bundler
-	rspec
-	rubocop
-	pry
-	pry-byebug
-	hub
-	colored
