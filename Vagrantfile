@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 # Plugins installed automaticaly
-required_plugins = %w( vagrant-hostsupdater vagrant-triggers vagrant-vbguest )
+required_plugins = %w( vagrant-hostsupdater vagrant-multi-putty vagrant-triggers vagrant-vbguest )
 
 begin
 	plugins_to_install = required_plugins.select { |plugin| not Vagrant.has_plugin? plugin }
