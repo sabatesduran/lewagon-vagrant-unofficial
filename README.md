@@ -1,6 +1,6 @@
 # Le Wagon - Vagrant VM (Not tested yet - WIP) 
 
-***This Vagrant VM it's unofficial is just for testing purposes***
+***This Vagrant VM it's unofficial and is just for testing purposes***
 
 Vagrant virtual machine using Virtualbox for Le Wagon alumni.
 
@@ -9,7 +9,7 @@ Vagrant virtual machine using Virtualbox for Le Wagon alumni.
 
 ###Vagrant plugins
 - vagrant-hostsupdater
-- vagrant-multi-putty
+- vagrant-multi-putty (not interesting for Linux users)
 - vagrant-triggers
 - vagrant-vbguest
 
