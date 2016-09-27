@@ -8,26 +8,26 @@ echo "====> Root login"
 sudo su
 echo ""
 
-# ISystem upgrade and system packages
+# System upgrade and system packages
 source $PROVISION_SCRIPTS/system.sh
-
-# Herramientas y entorno de desarrollo
-source $PROVISION_SCRIPTS/develop.sh
-
-# Node.js
-source $PROVISION_SCRIPTS/nodejs.sh
 
 # Mailcatcher (WIP)
 #source $PROVISION_SCRIPTS/mailcatcher.sh
 
+# ZSH
+source $PROVISION_SCRIPTS/zsh.sh
+
 # Ruby
 source $PROVISION_SCRIPTS/ruby.sh
 
+# Node.js
+source $PROVISION_SCRIPTS/nodejs.sh
+
+# Postresql
+source $PROVISION_SCRIPTS/postgresql.sh
+
 # Apache 2
 source $PROVISION_SCRIPTS/apache.sh
-
-# ZSH
-source $PROVISION_SCRIPTS/zsh.sh
 
 # Cleaning
 source $PROVISION_SCRIPTS/finish.sh

@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 
-echo "====> Instalamos NodeJS y NPM"
+echo "====> Installing NodeJS and npm"
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt-get install -y nodejs
 echo ""
 
-echo "====> Instalamos Gulp"
+echo "====> Installing Gulp"
 npm install -g gulp
