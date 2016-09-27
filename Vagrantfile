@@ -30,13 +30,13 @@ Vagrant.configure(2) do |config|
 	config.vm.hostname = "lewagon.local"
 
 	# Shared folders
-	config.vm.synced_folder "./shared/www", "/var/www",
-        create: true,
-        type: "virtualbox",
-        id: "vagrant-root",
-        owner: "vagrant",
-        group: "www-data",
-        mount_options: ["dmode=775,fmode=664"]
+	# config.vm.synced_folder "./shared/www", "/home/vagrant",
+ #        create: true,
+ #        type: "virtualbox",
+ #        id: "vagrant-root",
+ #        owner: "vagrant",
+ #        group: "www-data",
+ #        mount_options: ["dmode=775,fmode=664"]
 
 	config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
 
