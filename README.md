@@ -1,4 +1,4 @@
-# Le Wagon - Vagrant VM (Not tested yet - WIP) 
+# Le Wagon - Vagrant VM (WIP)
 
 ***This Vagrant VM it's unofficial and is just for testing purposes***
 
@@ -25,6 +25,9 @@ Vagrant virtual machine using Virtualbox for Le Wagon alumni.
 	- pry-byebug
 	- hub
 	- colored
+	- rails
+	- tty-prompt
+	- mailcatcher
 - Postgresql
 - Node.js
 	- npm
