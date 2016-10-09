@@ -1,8 +1,9 @@
 #! /usr/bin/env bash
 
 echo "====> Package cleaning"
-apt-get autoremove -y
-apt-get autoclean -y
-apt-get clean -y
+sudo apt-get autoremove -y
+sudo apt-get autoclean -y
+sudo apt-get autoclean -y
 updatedb
-rm -Rf /root/VBoxGuestAdditions.iso
+sudo rm -Rf /root/VBoxGuestAdditions.iso
+sudo reboot
