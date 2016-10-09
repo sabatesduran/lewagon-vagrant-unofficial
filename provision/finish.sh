@@ -6,4 +6,3 @@ sudo apt-get autoclean -y
 sudo apt-get autoclean -y
 updatedb
 sudo rm -Rf /root/VBoxGuestAdditions.iso
-sudo reboot
