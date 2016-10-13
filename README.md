@@ -4,6 +4,9 @@
 
 Vagrant virtual machine using Virtualbox for Le Wagon alumni.
 
+###Usage
+	$ vagrant up
+
 ###OS
 - Ubuntu Xenial Xerus 16.04 x64
 
